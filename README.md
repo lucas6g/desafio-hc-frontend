@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Desafio Hard Code Frontend
+</h1>
 
-## Getting Started
+<ul>
+  <li>Link para a versão em staging da aplicação, <a href="https://desafio-hc-frontend.netlify.app" target="_blank">clique aqui</a>.</li>
+</ul>
 
-First, run the development server:
+## :computer: Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Além das tecnologias abaixo, esta aplicação foi desenvolvida com as melhores práticas de desenvolvimento!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [Node.js](https://nodejs.org/en/)
+- [React js](https://pt-br.reactjs.org)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Styled-Components](styled-components)
+- [Typescript](https://www.typescriptlang.org/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :books: Guia de instalação e execução
 
-## Learn More
+### Pré-requisitos
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/) v10.20 ou maior
+- [Yarn](https://yarnpkg.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Como executar
 
-## Deploy on Vercel
+- Clone o repositório ```git clone https://github.com/lucas6g/desafio-hc-frontend.git```
+- Vá até o diretório ```cd desafio-hc-frontend```
+- Execute ```yarn ou npm install``` para instalar as dependências
+- Execute ```yarn dev ou npm run dev```para rodar o servidor em desemvolvimento
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
